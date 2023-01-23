@@ -1,3 +1,4 @@
+// This code splits a string input into groups of two. If the string has an odd number of alphabets, the function adds an underscore to the last digit.
 function splitter(word){
   if (word.length % 2 != 0){
     word = word + "_"
